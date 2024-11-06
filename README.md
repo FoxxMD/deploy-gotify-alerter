@@ -27,6 +27,13 @@ environment = """
 
   # App Token created for Komodo
   GOTIFY_APP_TOKEN = [[GOTIFY_APP_TOKEN]]
+
+  ## Optional
+
+  # Set the Gotify Priority level based on Komodo alert severity
+  #GOTIFY_OK_PRIORITY=3
+  #GOTIFY_WARNING_PRIORITY=5
+  #GOTIFY_CRITICAL_PRIORITY=8
 """
 
 [[variable]]
