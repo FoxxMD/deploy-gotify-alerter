@@ -2,7 +2,7 @@
 
 Part of the [*Komodo Hub* collection.](https://github.com/komodo-hub/komodo-hub)
 
-Deploys an [Alerter](https://komo.do/docs/resources#alerter) that pushes to [Gotify](https://gotify.net/)
+Deploys an [Alerter](https://komo.do/docs/resources#alerter) that pushes to [Gotify](https://gotify.net/). Docker image built from [foxxmd/komodo-utilities](https://github.com/FoxxMD/komodo-utilities).
 
 ## Requirements
 
