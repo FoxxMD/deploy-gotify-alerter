@@ -29,11 +29,15 @@ environment = """
   GOTIFY_APP_TOKEN = [[GOTIFY_APP_TOKEN]]
 
   ## Optional
+  # Need to add to `compose.yaml` as well
 
   # Set the Gotify Priority level based on Komodo alert severity
   #GOTIFY_OK_PRIORITY=3
   #GOTIFY_WARNING_PRIORITY=5
   #GOTIFY_CRITICAL_PRIORITY=8
+
+  # Set whether to include Komodo Severity Level in notification title
+  #LEVEL_IN_TITLE=true
 """
 
 [[variable]]
