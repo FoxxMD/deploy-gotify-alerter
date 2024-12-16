@@ -38,6 +38,14 @@ environment = """
 
   # Set whether to include Komodo Severity Level in notification title
   #LEVEL_IN_TITLE=true
+
+  # Prefixes messages with a checkmark when the Alert is in the 'Resolved' state
+  #INDICATE_RESOLVED=true
+
+  # Filter if an alert is pushed based on its Resolved status
+  # * leave unset to push all alerts
+  # * otherwise, alerts will only be pushed if Alert is one of the comma-separated states set here
+  #ALLOW_RESOLVED_TYPE=resolved,unresolved
 """
 
 [[variable]]
