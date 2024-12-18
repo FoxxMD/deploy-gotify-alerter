@@ -2,8 +2,7 @@ services:
   komodo-gotify:
     image: foxxmd/komodo-gotify-alerter:latest
     restart: unless-stopped
-    environment:
-      - GOTIFY_URL=${GOTIFY_URL}
-      - GOTIFY_API_KEY=${GOTIFY_API_KEY}
+    env_file:
+     - ./.env
     ports:
       - "7000:7000"
