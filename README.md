@@ -46,6 +46,11 @@ environment = """
   # * leave unset to push all alerts
   # * otherwise, alerts will only be pushed if Alert is one of the comma-separated states set here
   #ALLOW_RESOLVED_TYPE=resolved,unresolved
+
+  ## Delay alerts with below types for X milliseconds 
+  ## and cancel pushing alert if it is resolved within that time
+  #UNRESOLVED_TIMEOUT_TYPES=ServerCpu,ServerMem
+  #UNRESOLVED_TIMEOUT=2000
 """
 
 [[variable]]
