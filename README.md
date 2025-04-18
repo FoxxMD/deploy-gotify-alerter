@@ -105,7 +105,7 @@ services:
     image: foxxmd/komodo-gotify-alerter:latest
     environment:
       - GOTIFY_URL=${GOTIFY_URL}
-      - GOTIFY_APP_TOKEN=${GOTIFY_API_KEY}
+      - GOTIFY_APP_TOKEN=${GOTIFY_APP_TOKEN}
       - UNRESOLVED_TIMEOUT_TYPES=ServerCpu,ServerMem
       - UNRESOLVED_TIMEOUT=20000
 
