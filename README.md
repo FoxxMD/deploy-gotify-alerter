@@ -28,7 +28,6 @@ Steps:
 * Open Komodo Dashboard -> Syncs -> **New Resource Sync**
 * Choose Mode -> UI Defined
   * Toggle the following to active:
-    * Managed
     * Include Sync Resources
     * Include Sync Variables
 
