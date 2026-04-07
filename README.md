@@ -17,10 +17,10 @@ Use **either** of the methods below.
 
 <details>
 
-Create a [Resource Sync](https://komo.do/docs/sync-resources) with the TOML configuration below to
+Create a [Resource Sync](https://komo.do/docs/automate/sync-resources) with the TOML configuration below to
 
 * create the [Stack](https://komo.do/docs/resources#stack) to run deploy-gotify-Alerter
-* add the Gotify App Token [Variable](https://komo.do/docs/variables) and
+* add the Gotify App Token [Variable](https://komo.do/docs/configuration/variables) and
 * setup the [Alerter](https://komo.do/docs/resources#alerter) + configuration
 
 Steps:
@@ -147,7 +147,7 @@ GOTIFY_APP_TOKEN = [[GOTIFY_APP_TOKEN]]
 #UNRESOLVED_TIMEOUT=2000
 ```
 
-Make sure to replace placeholder values. `[[GOTIFY_APP_TOKEN]]` is a Komodo [Variable](https://komo.do/docs/variables).
+Make sure to replace placeholder values. `[[GOTIFY_APP_TOKEN]]` is a Komodo [Variable](https://komo.do/docs/configuration/variables).
 
 After deploying the Stack create a new [Alerter](https://komo.do/docs/resources#alerter)
 
